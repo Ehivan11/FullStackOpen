@@ -60,7 +60,7 @@ router.put('/', async (request, response, next) => {
 
 router.delete('/:id', async (request, response, next) => {
   const { id } = request.params
-  Person.findByIdAndDelete(id)
+  await Person.findByIdAndDelete(id)
     .then(() => {
       response.status(204).end()
     })
