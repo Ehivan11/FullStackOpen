@@ -1,0 +1,166 @@
+body {
+  background: #cff5e7;
+}
+
+h1 {
+  position: relative;
+  left: 1rem;
+  font-family: monospace;
+  font-size: 35px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+  position: relative;
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  background: #141414;
+  color: #fff;
+  padding: 6px;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.error {
+  background: rgb(198, 15, 15);
+  color: #fff;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.success {
+  background: rgb(15, 198, 27);
+  color: #fff;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.blogForm {
+  position: absolute;
+  width: fit-content;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.userSpan {
+  font-size: large;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  font-family: monospace;
+}
+
+.buttonLogout {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: fit-content;
+  margin: auto;
+}
+
+.blogsList {
+  position: relative;
+  margin: 10px 0;
+  padding: 2px;
+  border: 1px solid #141414;
+  border-radius: 3%;
+  width: fit-content;
+  transition: all 1s ease;
+}
+
+.blogTitle {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.blogAuthor {
+  font-size: small;
+}
+
+.toggleButtonBlog {
+  margin: auto;
+  width: fit-content;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+}
+
+.toggleButtonDetails {
+  position: absolute;
+  top: 0;
+  left: 22rem;
+}
+
+.saveBlog {
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.icon-heart {
+  background: #141414;
+  position: absolute;
+  right: 60px;
+  bottom: -13px;
+  padding: 5px;
+  border-radius: 50px;
+  color: #fff;
+  content: \e9da;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.icon-heart:hover {
+  color: #c60f0f;
+}
+
+.icon-heart:active {
+  transform: scale(1.1, 1.1);
+}
+
+.icon-bin2 {
+  background: #141414;
+  position: absolute;
+  right: 20px;
+  bottom: -13px;
+  padding: 5px;
+  border-radius: 50px;
+  color: #fff;
+  content: \e9da;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.icon-bin2:hover {
+  color: #c60f0f;
+}
+
+.icon-bin2:active {
+  transform: scale(1.1, 1.1);
+}
