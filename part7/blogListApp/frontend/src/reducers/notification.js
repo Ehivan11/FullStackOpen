@@ -7,10 +7,10 @@ const notiSlice = createSlice({
   initialState: null,
   reducers: {
     newNoti(state, action) {
-      return (state = action.payload || null)
+      return action.payload
     },
-    removeNoti(state, action) {
-      return (state = null)
+    removeNoti() {
+      return null
     }
   }
 })

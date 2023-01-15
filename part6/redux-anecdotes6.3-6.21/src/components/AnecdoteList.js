@@ -4,7 +4,7 @@ import { setNotification } from '../reducers/notificationReducer'
 
 export default function AnecdoteList() {
   const dispatch = useDispatch()
-  
+
   const anecdotes = useSelector(({ anecdoteReducer, filterReducer }) => {
     const filteredList = [...anecdoteReducer].filter(anecdote => {
       const regexFilter = new RegExp(filterReducer.toLowerCase())

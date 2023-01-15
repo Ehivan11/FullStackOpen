@@ -1,0 +1,76 @@
+body {
+  background: #fff;
+}
+
+h1 {
+  position: relative;
+  left: 1rem;
+  font-family: monospace;
+  font-size: 35px;
+  width: fit-content;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+  position: relative;
+  display: block;
+  margin: 5px 0;
+}
+
+.error {
+  background: rgb(198, 15, 15);
+  color: #fff;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.success {
+  background: rgb(15, 198, 27);
+  color: #fff;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.icon-heart {
+  background: #141414;
+  fill: #fff;
+  position: absolute;
+  width: 20px;
+  right: 50px;
+  padding: 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.icon-heart:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.icon-trash {
+  background: #141414;
+  position: absolute;
+  width: 20px;
+  right: 20px;
+  padding: 2px;
+  border-radius: 50px;
+  stroke: #fff;
+  fill: #fff;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.icon-trash:hover {
+  transform: scale(1.1, 1.1);
+}
